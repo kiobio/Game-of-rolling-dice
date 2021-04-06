@@ -1,0 +1,73 @@
+
+.background{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 61%, rgba(0,212,255,1) 100%);
+    padding:10rem;
+}
+.players{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem ;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    
+}
+.player_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score_one{
+    font-size: 10rem;
+    padding-bottom: 10rem;
+}
+
+.score_two{
+    font-size: 10rem;
+    padding-bottom: 10rem;
+}
+
+.body_one{
+    font-size: 5rem;
+}
+.body_two{
+    font-size: 5rem;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NewGame{
+    font-size: 3rem;
+    padding-bottom: 11rem;
+}
+.dice{
+    font-size: 12rem;
+}
+.roll{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.end{
+    font-size: 2rem;
+}
+.Point_one{
+    background-color:rgb(56, 29, 56);
+    padding:3rem;
+    border-radius: 20%;
+    color: whitesmoke;
+}
+.Point_two{
+    background-color: rgb(19, 55, 88);
+    padding:3rem;
+    border-radius: 20%;
+    color:whitesmoke;
+}
